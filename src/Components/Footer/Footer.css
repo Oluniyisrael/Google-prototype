@@ -78,9 +78,7 @@ hr{
         padding-right: .1rem; 
         display: none;
     }
-    #center div{
 
-    }
     #flexen {
         align-self: end;
         display: flex;
@@ -123,5 +121,8 @@ hr{
         padding: 1%;
         height: min-content;
         width:auto;
+    }
+    #flexend div p {
+        margin: 0rem;
     }
 }

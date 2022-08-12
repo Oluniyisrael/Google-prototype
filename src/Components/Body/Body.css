@@ -18,18 +18,23 @@
     
 }
 #COntents{
+    justify-content: space-around;
     text-align: center;
     padding: .5rem;
     width: 10rem;
     margin-top: 2rem;
     margin-right: 20px;
     margin-bottom: 2rem;
+    margin-left: 8px;
     background-color: rgb(233, 233, 233);
     box-shadow: 2px 2px 9px 0px black;
 }
 #belowcontents{
     display: flex;
     justify-content: center;
+}
+#offerd{
+    text-align: center;
 }
 .links{
     padding-right: 1rem;
