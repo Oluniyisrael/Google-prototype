@@ -63,9 +63,9 @@ hr{
     order: 0;
     width: 100%;
     justify-content: center;
+    display: none;
     }
     #flexstart {
-        display: flex;
         align-items: center;
     }
     #flexstart div {
@@ -76,6 +76,7 @@ hr{
         justify-content: center;
         display: flex;
         padding-right: .1rem; 
+        display: none;
     }
     #center div{
 
@@ -84,6 +85,7 @@ hr{
         align-self: end;
         display: flex;
         padding: 5px;
+        display: none;
     }
     #flexen div{
         padding-right: .2rem;
