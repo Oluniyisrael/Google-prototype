@@ -4,6 +4,11 @@
 }
 #gle{
     height: 20rem;
+    display: block;
+}
+#glemoble{
+    display: none;
+    height: 20rem;
 }
 #search{
     padding: 1rem;
@@ -43,5 +48,14 @@
 }
 .links a:link{
     text-decoration: none;
-
+}
+@media screen  and (max-width: 1200px){
+    #gle{
+        height: 20rem;
+        display: none;
+    }
+    #glemoble{
+        display: block;
+        height: 10rem;
+    }
 }

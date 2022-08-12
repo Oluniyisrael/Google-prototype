@@ -1,6 +1,7 @@
 import React from 'react'
 import './Body.css'
 import googleimg from '../Images/7123960_logo_google_icon.png' 
+import googleimgmobl from '../Images/7123960_logo_google_icon_mobile.png'
 
 
 function Body() {
@@ -8,6 +9,7 @@ function Body() {
     <div>
         <div  className='glecontainer'>
             <img src={googleimg} alt='...' id='gle'/>
+            <img src={googleimgmobl} alt='...' id='glemoble'/>
             
         </div>
         <div className='glecontainer'>
