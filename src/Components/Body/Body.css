@@ -11,6 +11,8 @@
     border: 1px solid grey;
     border-radius: 5rem;
     font-size: 1.2rem;
+    margin-left: 14px;
+    margin-right: 14px;
 }
 #belowsrch{
     display: flex;
@@ -25,7 +27,7 @@
     margin-top: 2rem;
     margin-right: 20px;
     margin-bottom: 2rem;
-    margin-left: 8px;
+    margin-left: 20px;
     background-color: rgb(233, 233, 233);
     box-shadow: 2px 2px 9px 0px black;
 }
