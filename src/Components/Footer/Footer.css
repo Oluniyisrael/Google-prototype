@@ -1,0 +1,125 @@
+body{
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column;  */
+    position: relative;
+}
+/* body::after{
+    content: '';
+    display: block;
+    height: 50px;
+} */
+#flexend{
+    width: 100%;
+    height: min-content;
+    position: absolute;
+    bottom:0 ;
+    min-height: 40px;
+    flex-grow: 1;
+    background-color: antiquewhite;
+}
+hr{
+    height: 1px;
+    background-color: rgb(87, 54, 54);
+    width: 99%;
+    border: none;
+}
+#flexend div p {
+    margin: 1rem;
+}
+#ndline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#flexstart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+#flexstart div {
+    padding: .3rem;
+}
+#center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: .3rem; 
+}
+#center div{
+    padding: .3rem;
+}
+#flexen {
+    align-self: end;
+    display: flex;
+    padding: 10px;
+}
+#flexen div{
+    padding: .3rem;
+}
+@media only screen and (max-width: 1200px){
+    #flexstart {
+    order: 0;
+    width: 100%;
+    justify-content: center;
+    }
+    #flexstart {
+        display: flex;
+        align-items: center;
+    }
+    #flexstart div {
+        padding: .3rem;
+    }
+    #center{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-right: .1rem; 
+    }
+    #center div{
+
+    }
+    #flexen {
+        align-self: end;
+        display: flex;
+        padding: 5px;
+    }
+    #flexen div{
+        padding-right: .2rem;
+    }
+    #medianon{
+        display: none;
+    }
+}
+#footer{
+    justify-content:end;
+    background-color: rgb(36, 35, 35);
+    padding:1px;
+    padding-right: 0;
+    height: min-content;
+    width: auto;
+    margin-right: 0%;
+}
+#footnote{
+    color: rgb(50, 64, 77);
+    font-size: 20px;
+    text-align: center;
+}
+#footnote a:link{
+    color: rgb(79, 152, 185);
+    text-decoration: none;
+    font-size: 20px;
+}
+#footnote a:hover{
+    color: orangered;
+}
+@media screen and (max-width:1200px) {
+    #footer{
+        justify-content:end;
+        background-color: rgb(36, 35, 35);
+        padding: 1%;
+        height: min-content;
+        width:auto;
+    }
+}

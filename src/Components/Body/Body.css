@@ -1,0 +1,40 @@
+.glecontainer{
+    display: flex;
+    justify-content: center;
+}
+#gle{
+    height: 20rem;
+}
+#search{
+    padding: 1rem;
+    width: 40rem;
+    border: 1px solid grey;
+    border-radius: 5rem;
+    font-size: 1.2rem;
+}
+#belowsrch{
+    display: flex;
+    justify-content: center;
+    
+}
+#COntents{
+    text-align: center;
+    padding: .5rem;
+    width: 10rem;
+    margin-top: 2rem;
+    margin-right: 20px;
+    margin-bottom: 2rem;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 2px 2px 9px 0px black;
+}
+#belowcontents{
+    display: flex;
+    justify-content: center;
+}
+.links{
+    padding-right: 1rem;
+}
+.links a:link{
+    text-decoration: none;
+
+}
