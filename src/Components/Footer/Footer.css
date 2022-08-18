@@ -25,7 +25,7 @@ hr{
     border: none;
 }
 #flexend div p {
-    margin: 1rem;
+    margin: 0.75rem;
 }
 #ndline {
     display: flex;
@@ -36,7 +36,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 10px;
+    padding: 7.5px;
 }
 #flexstart div {
     padding: .3rem;
@@ -53,7 +53,7 @@ hr{
 #flexen {
     align-self: end;
     display: flex;
-    padding: 10px;
+    padding: 7.5px;
 }
 #flexen div{
     padding: .3rem;

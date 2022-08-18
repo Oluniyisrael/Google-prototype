@@ -2,18 +2,28 @@ import React from 'react'
 import './Body.css'
 import googleimg from '../Images/7123960_logo_google_icon.png' 
 import googleimgmobl from '../Images/7123960_logo_google_icon_mobile.png'
+import googlemic from '../Images/7123011_google_mic_icon.png'
+import googlesearch from '../Images/search.svg'
 
 
 function Body() {
   return (
     <div>
         <div  className='glecontainer'>
-            <img src={googleimg} alt='...' id='gle'/>
+            <img src={googleimg} alt='...' id='gle' />
             <img src={googleimgmobl} alt='...' id='glemoble'/>
             
         </div>
         <div className='glecontainer'>
-            <input type='text' id='search' placeholder='Search...'/>
+            <div id='gleinputcontainer'>
+           <div id='inputicon'>
+                <img src={googlesearch} alt="..." width="30px" height='30px' />
+                </div>
+                <input type='text' id='search' placeholder='Search...'/>
+                 <div id='inputicon'>
+                <img src={googlemic} alt="..." width="50px" height='50px'/>
+            </div>
+            </div>
         </div>
         <div id='belowsrch'>
             <span id='COntents'>
@@ -40,7 +50,7 @@ function Body() {
                                                 <span className='links'>
                                                     <a href='#body'>Pidgin</a>
                                                 </span>
-                                                <br/><br/><br/><br/> <br/><br/><br/> <br/><br/><br/> <br/>
+                                                <br/><br/><br/><br/> <br/><br/><br/> <br/><br/>
                                    
             </div>
         </div>

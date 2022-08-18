@@ -3,19 +3,36 @@
     justify-content: center;
 }
 #gle{
-    height: 20rem;
+    height: 15rem;
     display: block;
 }
 #glemoble{
     display: none;
     height: 20rem;
 }
-#search{
-    padding: 1rem;
-    width: 40rem;
-    border: 1px solid grey;
+#gleinputcontainer {
     border-radius: 5rem;
-    font-size: 1.2rem;
+    border: 1px solid grey;
+    /* width: 38%; */
+    min-width: 40%;
+    /* max-width: 69%; */
+    display: flex;
+    justify-content: center;
+}
+#inputicon {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#search {
+    padding: 0.75rem;
+    width: 80%;
+    /* min-width:20rem ; */
+    /* max-width: 30rem; */
+    border:  none;
+    outline: 0;
+    border-radius: 5rem;
+    font-size: 1rem;
     margin-left: 14px;
     margin-right: 14px;
 }
@@ -24,6 +41,7 @@
     justify-content: center;
     
 }
+
 #COntents{
     justify-content: space-around;
     text-align: center;
@@ -57,5 +75,30 @@
     #glemoble{
         display: block;
         height: 10rem;
+    }
+    #inputicon {
+        margin-left: 4px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    #gleinputcontainer {
+        border-radius: 5rem;
+        border: 1px solid grey;
+        width: 70%;
+        min-width: 40%;
+        max-width: 80%;
+    }
+    #search {
+        /* padding: 0.75rem; */
+        width: 80%;
+        /* min-width: 20rem; */
+        /* max-width: 30rem; */
+        border: none;
+        outline: 0;
+        border-radius: 5rem;
+        font-size: 1rem;
+        /* margin-left: 14px; */
+        /* margin-right: 14px; */
     }
 }
