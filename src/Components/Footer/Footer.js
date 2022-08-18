@@ -24,7 +24,7 @@ function Footer() {
           </div>
         </div>
         <div id="footer">
-            <p id="footnote">© Copyright Oluniyi 2022 | Developed by <a href="https://facebook.com/oluniyiozy.israel">Oluniyi Israel Adebowale</a></p>
+            <p id="footnote">© Copyright Oluniyi 2022 | Developed by <a href="https://facebook.com/oluniyiozy.israel" target="blank">Oluniyi Israel Adebowale</a></p>
 		</div>
     </footer> 
   )
