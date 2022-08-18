@@ -85,9 +85,9 @@
     #gleinputcontainer {
         border-radius: 5rem;
         border: 1px solid grey;
-        width: 70%;
+        width: 85%;
         min-width: 40%;
-        max-width: 80%;
+        max-width: 85%;
     }
     #search {
         /* padding: 0.75rem; */
