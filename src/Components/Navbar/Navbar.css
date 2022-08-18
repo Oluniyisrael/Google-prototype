@@ -15,14 +15,10 @@
     width: 2rem;
 }
 #siconbor {
-    justify-content: center;
-    display: flex;
     margin-top: 0.5rem;
     height: 2.7rem;
     width: 2.7rem;
-    border: 1px blue;
     border-radius: 50%;
-    object-fit: cover;
     background-color: brown;
     color: aliceblue;
     align-items: center;
