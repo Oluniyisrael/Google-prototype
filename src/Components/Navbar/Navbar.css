@@ -14,7 +14,9 @@
     padding-top: 0.7rem;
     width: 2rem;
 }
-#siconbor{
+#siconbor {
+    justify-content: center;
+    display: flex;
     margin-top: 0.5rem;
     height: 2.7rem;
     width: 2.7rem;
@@ -23,6 +25,7 @@
     object-fit: cover;
     background-color: brown;
     color: aliceblue;
+    align-items: center;
 }
 #sicon{
     font-family: 'Segoe UI';
